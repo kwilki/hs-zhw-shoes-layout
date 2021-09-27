@@ -118,11 +118,12 @@ iframe {
   font: bold 42px 'Elsie Swash Caps', cursive;
   color: white;
   text-shadow: 0 2px 3px #000;
-  margin: 0 0 10px;
+  margin: 10px 0 10px 0;
 }
 
 .border_right {
   border-right: 1px dotted #ccc;
+  margin-left: 20px;
   padding-right: 20px;
 }
 
@@ -132,6 +133,9 @@ iframe {
 
 .contact_form {
   height: 415px;
+}
+.follow {
+  margin-left: 20px;
 }
 
 /********** Header **********/

@@ -23,5 +23,47 @@
 }
 
 /* Positioning Classes */
+.grid-container-main {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: 
+    "item1 item1 item2" 
+    "item3 item4 item5";
+}
 
+#item-1 {
+  grid-area: item1;
+  /* grid-column: span 2; */
+}
 
+#item-2 {
+  grid-area: item2;
+}
+
+#item-3 {
+  grid-area: item3;
+}
+#item-4 {
+  grid-area: item4;
+}
+
+#item-5 {
+  grid-area: item5;
+}
+
+.grid-container-details {
+  display: grid;
+  grid-template-areas: "contact links follow";
+}
+
+#contact {
+  grid-area: contact;
+}
+
+#links {
+  grid-area: links;
+}
+
+#follow {
+  grid-area: follow;
+}
